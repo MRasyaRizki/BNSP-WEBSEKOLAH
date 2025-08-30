@@ -38,7 +38,7 @@
     <div class="container py-2 d-flex justify-content-between align-items-center flex-wrap">
         {{-- Logo Sekolah --}}
         <div class="d-flex align-items-center mb-2 mb-lg-0">
-        <img src="{{ asset('images/logo.png') }}" alt="Logo Sekolah" height="50" class="me-2">
+        <img src="{{ asset('https://sman1bdg.sch.id/wp-content/uploads/2019/04/LOGO-SMANSA.png') }}" alt="Logo Sekolah" height="50" class="me-2">
         <div>
             <h5 class="mb-0 fw-bold text-primary">SMA NEGERI 1 ROBLOX</h5>
             <span class="text-warning fw-semibold small">BANDUNG</span>
