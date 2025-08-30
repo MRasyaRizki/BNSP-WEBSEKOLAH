@@ -27,19 +27,28 @@
 <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="https://dummyimage.com/1920x800/000000/fff" class="d-block w-100" alt="Banner 1">
+            <img src="https://media.istockphoto.com/id/1676220225/id/foto/anak-anak-belajar-di-kelas-sekolah.jpg?s=2048x2048&w=is&k=20&c=1fCILKZRwF9uuflYUXVolYDesjZn9OIb88WtLx_pfcc=" class="d-block w-100" alt="Banner 1">
             <div class="carousel-caption">
-                <h2 class="fw-bold">Pengumuman SPMB SMAN 1 Bandung</h2>
+                <h2 class="fw-bold">Profile SMAN 1 Bandung</h2>
                 <p>Sistem Penerimaan Siswa Baru (SPMB JABAR 2025)...</p>
-                <a href="#" class="btn btn-primary rounded-pill px-4">Selengkapnya</a>
+                <a href="{{ url('/about') }}" class="btn btn-primary rounded-pill px-4">Selengkapnya</a>
             </div>
         </div>
 
         <div class="carousel-item">
-            <img src="https://dummyimage.com/1920x800/000000/fff" class="d-block w-100" alt="Banner 2">
+            <img src="https://media.istockphoto.com/id/1676220225/id/foto/anak-anak-belajar-di-kelas-sekolah.jpg?s=2048x2048&w=is&k=20&c=1fCILKZRwF9uuflYUXVolYDesjZn9OIb88WtLx_pfcc=" class="d-block w-100" alt="Banner 2">
             <div class="carousel-caption">
                 <h2 class="fw-bold">Kegiatan Sekolah</h2>
                 <p>Berbagai kegiatan akademik dan non-akademik...</p>
+                <a href="{{ url('/activities') }}" class="btn btn-primary rounded-pill px-4">Lihat Kegiatan</a>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1676220225/id/foto/anak-anak-belajar-di-kelas-sekolah.jpg?s=2048x2048&w=is&k=20&c=1fCILKZRwF9uuflYUXVolYDesjZn9OIb88WtLx_pfcc=" class="d-block w-100" alt="Banner 2">
+            <div class="carousel-caption">
+                <h2 class="fw-bold">Berita Sekolah</h2>
+                <p>Berita terbaru seputar kegiatan dan prestasi sekolah...</p>
                 <a href="{{ url('/activities') }}" class="btn btn-primary rounded-pill px-4">Lihat Kegiatan</a>
             </div>
         </div>
